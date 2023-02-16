@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center; 
+    display: flex;
+  }
+   main{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+  } 
+
+  h2 {
+    margin: 15px;
+    color: rgb(30, 6, 102);
+  }
+  
+  h3 {
+    margin: 15px;
+    color: rgb(15, 84, 119);
+    font-size:1.5rem
+  }
+  
+  input {
+    font-size: 13px;
+    margin-left: 1rem;
+    padding: .3rem;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  h4 {
+    color: rgb(28, 28, 218);
+    margin: 15px 5;
+    font-size: 1.3rem;
+  }
+
+  h5{
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: rgb(30, 6, 102);
+    color: white;
+    padding: 3px 4px;
+    font-size: 0.7rem;
+    border-radius: 6px;
+  }
+  
+  #winner-name {
+    color: red;
+  }
+
+  section {
+    display: none;
+  }
+  #highscore-Div{
+    border: 2px solid green;
+    margin: 1rem auto;
+    width: 30%;
+    height: 30%;
+    display: none;
+    padding: 3rem 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        text-align: center;
+    }
+  }
